@@ -5,7 +5,6 @@ import { JSX } from "react";
 // Also, this layout works only for the `meals` folder.
 function MealsLayout({ children }: { children: JSX.Element }) {
   return <>
-    <p>Meals Layout</p>
     {children}
   </>;
 }
